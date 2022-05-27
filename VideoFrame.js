@@ -28,7 +28,7 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 
 // Logic for determning <script>/module taken from Q project (https://github.com/kriskowal/q)
 (function (definition) {
-    
+    "use strict";
     // This file will function properly as a <script> tag, or a module
     // using CommonJS and NodeJS or RequireJS module formats.  In
     // Common/Node/RequireJS, the module exports the VideoFrame constructor and when
